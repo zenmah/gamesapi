@@ -7,9 +7,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-//using Nancy.Owin;
+using Nancy.Owin;
+using Microsoft.AspNetCore.Owin;
 
-namespace games_api
+namespace game_api_fw
 {
     public class Startup
     {
@@ -38,8 +39,7 @@ namespace games_api
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-          //  app.UseOwin(x => x.UseNancy());
-
+            app.UseOwin(x => x.UseNancy());
             app.UseMvc();
         }
     }

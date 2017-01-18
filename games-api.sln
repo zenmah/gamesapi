@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5B36B87-CBA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "games-api", "src\games-api\games-api.csproj", "{FA4EC072-DD72-49EF-81D1-6D97215EA306}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game-api-fw", "src\game-api-fw\game-api-fw.csproj", "{51BC9AE4-9ED0-4958-B714-6D4DF4106550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,24 @@ Global
 		{FA4EC072-DD72-49EF-81D1-6D97215EA306}.Release|x64.Build.0 = Release|x64
 		{FA4EC072-DD72-49EF-81D1-6D97215EA306}.Release|x86.ActiveCfg = Release|x86
 		{FA4EC072-DD72-49EF-81D1-6D97215EA306}.Release|x86.Build.0 = Release|x86
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Debug|x64.ActiveCfg = Debug|x64
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Debug|x64.Build.0 = Debug|x64
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Debug|x86.ActiveCfg = Debug|x86
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Debug|x86.Build.0 = Debug|x86
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Release|x64.ActiveCfg = Release|x64
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Release|x64.Build.0 = Release|x64
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Release|x86.ActiveCfg = Release|x86
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA4EC072-DD72-49EF-81D1-6D97215EA306} = {D5B36B87-CBA6-45CA-9AE4-1F5C0895FFCB}
+		{51BC9AE4-9ED0-4958-B714-6D4DF4106550} = {D5B36B87-CBA6-45CA-9AE4-1F5C0895FFCB}
 	EndGlobalSection
 EndGlobal
